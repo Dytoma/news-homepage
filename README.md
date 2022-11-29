@@ -84,7 +84,7 @@ I would like to focus more on JavaScript DOM to design more interactive and resp
 
 ### Useful resources
 
-- [Bootstrap](https://getbootstrap.com/) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Bootstrap](https://getbootstrap.com/) - This helped me for grid layout. I really liked this pattern and will use it going forward.
 - [Youtube video on toggle menu](https://www.youtube.com/watch?v=oYRda7UtuhA&t=28s) - This is an amazing video which helped me design the toggle menu.
 
 
