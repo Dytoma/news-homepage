@@ -1,0 +1,218 @@
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 4.4%;
+}
+.navigation-bar .nav-links li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 45px;
+}
+.navigation-bar .nav-links li a {
+  text-decoration: none;
+  color: hsl(240deg, 100%, 5%);
+  transition: 0.3s linear;
+}
+.navigation-bar .nav-links li a:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.button {
+  background: hsl(5deg, 85%, 63%);
+  border-radius: 0;
+  color: hsl(36deg, 100%, 99%);
+  padding: 15.35px 28.66px;
+  word-spacing: 10.23px;
+  letter-spacing: 3.35px;
+  border-style: none;
+  margin-top: 36px;
+  width: 185px;
+  height: 49px;
+  font-size: 14.85px;
+  transition: 0.5s linear;
+  margin-bottom: 100px;
+}
+.button:hover {
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+#homepage {
+  margin: 6.2% 8.3% 8.9%;
+}
+
+.intro {
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.intro h5 {
+  font-weight: 800;
+  font-size: 3.44rem;
+}
+.intro p {
+  font-size: 15px;
+}
+
+.cards {
+  margin: auto 3%;
+}
+
+.options {
+  display: flex;
+}
+.options .description {
+  padding-left: 24px;
+  padding-right: 20px;
+}
+.options .description h2 {
+  font-size: 1.94rem;
+  font-weight: 700;
+  color: hsl(233deg, 8%, 79%);
+}
+.options .description h3 {
+  font-size: 1.13rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.options .description h3:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+.options .description p {
+  color: hsl(233deg, 8%, 79%);
+  font-size: 0.94rem;
+  font-weight: 400;
+}
+
+.navbar {
+  padding-left: 44px;
+}
+
+.nav-item {
+  margin-right: 38px;
+}
+
+.hover-effect {
+  transition: 0.3s linear;
+}
+.hover-effect:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.new-section {
+  background: hsl(240deg, 100%, 5%);
+  padding: 27px 22px;
+}
+.new-section h4 {
+  color: hsl(35deg, 77%, 62%);
+  font-weight: 700;
+  font-size: 2.63rem;
+}
+.new-section div {
+  line-height: 1.5;
+  padding: 27px 22px;
+}
+.new-section div h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(36deg, 100%, 99%);
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.new-section div h3:hover {
+  color: hsl(35deg, 77%, 62%);
+}
+.new-section div p {
+  color: hsl(233deg, 8%, 79%);
+  font-size: 0.94rem;
+}
+.new-section div hr {
+  background-color: hsl(233deg, 8%, 79%);
+  height: 1px;
+  border: none;
+}
+
+.first-section {
+  margin: 54px 46px;
+}
+
+.img-hero {
+  width: 728px;
+  height: 302px;
+}
+
+.text {
+  line-height: 1.6;
+}
+
+.icons {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .navigation-bar .nav-links {
+    padding: auto 15px;
+    position: absolute;
+    background-color: hsl(36deg, 100%, 99%);
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    margin-right: -200px;
+    text-align: left;
+    z-index: 2;
+    transform: translateX(100%);
+    transition: 1s;
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+  }
+  .navigation-bar .nav-links .item1 {
+    margin-top: 100px;
+  }
+  .navigation-bar .nav-links li {
+    display: block;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+  .navigation-bar .nav-links svg {
+    margin-top: 30px;
+    text-align: right;
+    display: block;
+    position: relative;
+    left: 135px;
+  }
+  .icons {
+    display: block;
+  }
+  #homepage {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .img-hero {
+    width: 100%;
+    height: 50vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  div {
+    padding: 0;
+  }
+  .options {
+    margin-top: 30px;
+  }
+  .first-section {
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}/*# sourceMappingURL=mystyle.css.map */
